@@ -1,0 +1,9 @@
+.DS_Store
+
+# Philipp Lackner's Android/KMP skills — obtained via his gated download
+# (video → form → email → Drive). Kept locally for reference only; not
+# redistributed here, since they carry no public licence.
+pl-coding-skills/
+
+# local copy of the sanitisation gate, with real identifiers filled in
+.leakcheck.local.sh
