@@ -7,16 +7,6 @@ These are not generic "write good Kotlin" prompts. Each file encodes a specific 
 failure it prevents, and the grep or check that proves you did it — the kind of knowledge that
 usually only exists in a senior engineer's head and gets rediscovered by every new contributor.
 
-**Before you pick this up, read [Credits and context](#credits-and-context).** This set is one of two
-worth knowing about, and which one fits you depends on whether you are starting fresh or working in an
-existing codebase.
-
-| | this repo | [Philipp Lackner's Android/KMP skills](#credits-and-context) |
-|---|---|---|
-| Written for | an existing Android app: Jetpack Compose for new screens, XML for the legacy ones still in production | Android **and** Kotlin Multiplatform, Compose throughout, greenfield projects |
-| Shape | Agent Skills (`SKILL.md` + frontmatter), auto-invoked — plus `CLAUDE.md`/`AGENTS.md` for always-on rules | Agent Skills (`SKILL.md` + frontmatter), auto-invoked |
-| Bias | migration reality — parity, dead-code removal, not breaking the old flow | clean architecture done properly from day one |
-
 ## What's here
 
 Each skill is an **Agent Skill**: a folder with a `SKILL.md` whose YAML frontmatter carries a trigger
@@ -141,8 +131,14 @@ the structure came from, and he deserves the tag.
 **<https://www.pl-coding.com/claude-skills>**; if that is still up when you read this, you can grab
 them there too. Go and get them from the source — they are worth the two minutes.
 
-**Read both if you are setting this up for yourself**, and take what fits your situation. They solve
-different problems:
+**Read both if you are setting this up for yourself**, and take whichever fits your situation. They
+solve different problems:
+
+| | this repo | Philipp Lackner's Android/KMP skills |
+|---|---|---|
+| Written for | an existing Android app: Jetpack Compose for new screens, XML for the legacy ones still in production | Android **and** Kotlin Multiplatform, Compose throughout, greenfield projects |
+| Shape | Agent Skills (`SKILL.md` + frontmatter), auto-invoked — plus `CLAUDE.md`/`AGENTS.md` for always-on rules | Agent Skills (`SKILL.md` + frontmatter), auto-invoked |
+| Bias | migration reality — parity, dead-code removal, not breaking the old flow | clean architecture done properly from day one |
 
 - **Mine** is written for a real, existing codebase: Jetpack Compose for anything new, XML screens
   still in production for everything old, and the migration between the two. A lot of it is about
